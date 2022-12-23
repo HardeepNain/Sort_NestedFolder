@@ -3,13 +3,19 @@
 We all are humans and we are lazy to manage things. 
 But this little project can manage your files and can save a lot of time for you.
 
+## Feature 📝
+Organize files into relevant folders including files present in any nested folder if exists.
+
+## Demo &nbsp;<a href="https://youtu.be/nIWi-y1Oa1I" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="Youtube" height="30" width="40" /></a>
+
+https://user-images.githubusercontent.com/88960105/209341799-5aeb7063-fb76-4263-8362-38f864700fd7.mp4
+
 ## Working 📝 
 
-- Select a folder on which you want to operate this project.
 - It process every file in that folder and Make relevant sub-folders by checking files extensions.
 - It group like files means all .txt,.docx,.pdf etc will be moved to a sub-folder named "Documents".
-- Its advanced version of folder Sorter. It can sort files of a folder inside another folder. It will give you a sorted files list in nested folders also.
+- And due to ***recursion*** used in the code these steps gets repeated for nested folders until no nested folder left to sort.
 
 ## Tech Stack ⚒
 
-**Nodejs and its FS Module**
+**Javascript, Node.js & FS Module**
