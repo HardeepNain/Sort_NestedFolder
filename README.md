@@ -13,8 +13,9 @@ https://user-images.githubusercontent.com/88960105/209341799-5aeb7063-fb76-4263-
 ## Working 📝 
 
 - It process every file in that folder and Make relevant sub-folders by checking files extensions.
-- It group like files means all .txt,.docx,.pdf etc will be moved to a sub-folder named `Documents`.
-- And due to `recursion` used in the code these steps gets repeated for nested folders until no nested folder left to sort.
+- It groups like files means all .txt,.docx,.pdf etc will be moved to a sub-folder named `Documents`.
+- And due to `recursion` used in the code these steps gets repeated for nested folders and the process don't stop until no nested folder left to sort.
+- This project utilizes the `fs` module to interact with the file system and move files into relevant subfolders.
 
 ## Tech Stack ⚒
 
