@@ -84,7 +84,7 @@ nestedSorting(process.argv[2]);
 
 
 /*
-New features implemented :
+New features implemented:
 
 1. isme nested folder bhi sort ho skenge kyunki hume recursion ka use krke nya folder path deke code firse run kr diya 
 to jab tak end tak folder khtam nhi honge tab tak recursion ki help se code ko nya folder path deke re-run krte rhenege
